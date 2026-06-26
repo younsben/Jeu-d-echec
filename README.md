@@ -2,6 +2,8 @@
 Développement d'un jeu d'échecs en implémentant moi-même les règles et le déplacement des pièces tout en développant une IA pouvant jouer au jeu
 Missions:
 Création du plateau (avec numéros et lettres)
+Baser la c réation des pièces sur des objets en y mettant les caractéristiques, le déplacement
+
 création de chaque pièce : 
   -Pion
   -Cavalier
