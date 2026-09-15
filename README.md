@@ -18,3 +18,25 @@ Règles:
   -Promotion Dame du Pion
 (D'abord créer la règle de l'échec pour ensuite pouvoir gérer les déplacemnts, faire en sorte que les échecs et les prises ne soient pas mis coder en fonction de chaque pièce, mais puissent être coder une fois pour toutes les pièces en même temps).
 (les règles de prises et d'échecs sont sensiblements les mêmes)
+
+REGLES DU JEU :
+[!NOTE]
+plato: 
+Le plato comporte 64 cases et se déploie comme étant une grille de 8x8 cases numéroté à la verticales de 1 jusqu'à 8 et à l'horizontale de A à H.
+
+
+pièces:
+
+
+coup possible pour chaque pièce:
+
+coup spéciaux (ces coups ne sont possibles QUE si les pièces en question n'ont pas encore fait de mouvement):
+-pion peut se déplacer de 2cases en avant
+
+-prise en passant pour le pion: si un pion du côté adverse arrive à sa hauteur sur le plan vertical à ses 2 cases les plus proches (ou la case la plus proche pour ceux sur les bords), il peut le manger en passant par sa diagonale (ce coup est à effet immédiat)
+
+-le rock, selon les endroits dégagés 
+
+être en échec:
+Parties nulles:
+échec et mat:
