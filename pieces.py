@@ -14,4 +14,8 @@ class Pieces:
 #sous classe pour roi, tour pour le rock et le pion pour la prise en passant
 # if != "Vide": alors utiliser le init sur la pièce
 """pour promotion d'un pion, il suffira de faire:
-  pion = Pieces(dame)"""
+  pion = Pieces(dame)
+  Faire héritage pour pion, roi et tour pour savoir si ils ont déjà bougé
+  ajouté un répertoire de coup pour chaque pièces sous format tableau,
+  mettre une méthode sous format __char__ pour print les coups"""
+  # regarder TOUTES les règles les lister et les transcrire
