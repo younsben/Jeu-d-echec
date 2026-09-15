@@ -20,23 +20,30 @@ Règles:
 (les règles de prises et d'échecs sont sensiblements les mêmes)
 
 REGLES DU JEU :
-[!NOTE]
-plato: 
+>[!NOTE]
+>plato: 
 Le plato comporte 64 cases et se déploie comme étant une grille de 8x8 cases numéroté à la verticales de 1 jusqu'à 8 et à l'horizontale de A à H.
 
+>[!NOTE]
+>pièces:
 
-pièces:
+>[!NOTE]
+>coup possible pour chaque pièce:
 
-
-coup possible pour chaque pièce:
-
-coup spéciaux (ces coups ne sont possibles QUE si les pièces en question n'ont pas encore fait de mouvement):
+>[!TIP]
+>coup spéciaux (ces coups ne sont possibles QUE si les pièces en question n'ont pas encore fait de mouvement):
 -pion peut se déplacer de 2cases en avant
 
 -prise en passant pour le pion: si un pion du côté adverse arrive à sa hauteur sur le plan vertical à ses 2 cases les plus proches (ou la case la plus proche pour ceux sur les bords), il peut le manger en passant par sa diagonale (ce coup est à effet immédiat)
 
 -le rock, selon les endroits dégagés 
 
-être en échec:
-Parties nulles:
-échec et mat:
+>[!Warning]
+>être en échec:
+
+>[!Warning]
+>Parties nulles:
+
+>[!CAUTION]
+>échec et mat:
+
