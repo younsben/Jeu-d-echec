@@ -5,6 +5,8 @@ def update_plateau(chang):
 # put here if the move is legal,
     if legal_move(chang):
         return chang
+
+        
 def begining_plate():
 #This function create the game board
     board = np.full((8,8),"Vide")

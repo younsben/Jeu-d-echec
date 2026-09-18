@@ -2,23 +2,15 @@
 Développement d'un jeu d'échecs en implémentant moi-même les règles et le déplacement des pièces tout en développant une IA pouvant jouer au jeu
 Missions:
 Création du plateau (avec numéros et lettres)
-Baser la c réation des pièces sur des objets en y mettant les caractéristiques, le déplacement
 
-création de chaque pièce : 
-  -Pion
-  -Cavalier
-  -Fou
-  -Tour
-  -Dame
-  -Roi
+
 Règles:
   -Mouvement si place disponible
-  -éches et échec  et mat
-  -Prise d'une pièce
+
   -Promotion Dame du Pion
-(D'abord créer la règle de l'échec pour ensuite pouvoir gérer les déplacemnts, faire en sorte que les échecs et les prises ne soient pas mis coder en fonction de chaque pièce, mais puissent être coder une fois pour toutes les pièces en même temps).
+(D'abord créer la règle de l'échec pour ensuite pouvoir gérer les déplacements, faire en sorte que les échecs et les prises ne soient pas mis coder en fonction de chaque pièce, mais puissent être coder une fois pour toutes les pièces en même temps).
 (les règles de prises et d'échecs sont sensiblements les mêmes)
-préciser que seul le cavalier peut passer au-dessus des autres pièces et peut mettre en échec avec d'autres pièces le bloquant
+
 REGLES DU JEU :
 >[!NOTE]
 >plato: 
@@ -78,5 +70,37 @@ Se produit lorsque :
 - Matériel insuffisant, avec les pièces restantes, aucun joueur ne peut finir la partie en mettant échecs et mat l'adversaire.
 
 >[!CAUTION]
->échec et mat:
+
+>Echec et mat:
+
 Lorsque le roi est mis en échec et qu'il n'y a aucun moyen de déplacer son roi ou une autre pièce de tel sorte qu'il ne soit plus en échec
+
+>[!TIPS]
+
+>les règles sous forme de classe?
+
+>[!TIPS]
+
+>Structure du code:
+
+Enumérer toutes les règles implicites ce qui me permettra de mieux structurer mon code et d'éviter des oublis de dernière minute ainsi que des erreurs simple à corriger.
+
+>[!Note]
+>Listage:
+- Les pièces d'une même couleur ne peuvent pas se capturer entre elle
+- Une pièce ne peut pas mettre en échec son propre roi
+- One ne peut pas dépasser les limites physique du plateau
+- Dans la fonction update plato il faudra faire plusieurs vérifications, est-ce que les coups sont bons, est-ce qu'un roi est en échec si oui est-ce que c'est un mat
+- Ajouter des photos d'un plateau, de chaque pièces, pour les pièces faire une méthode dans la classe pièces auquel on fera un super dans chaque sous classe, différencier si la pièce est blanche ou noit
+- Ajouter la possibilité de retourner le plato selon qu'on joue avec les blancs ou les noirs
+- Placer les numérotations sur le plato
+
+
+Je vais commencer par créer le plateau d'échec.
+Puis je vais créer chacune des pièces et leur spécificité (les déplacements et les coups spéciaux).
+Et enfin je vais y implémenter les différentes règles.
+Le concept du jeu est d'opposer les pièces noires aux pièces blanches, donc une pièce blanche ne peut ni capturer une pièce et ni mettre le roi de sa couleur en échec
+
+Pour simplifier le jeu, je vais commencer par prendre en compte que les joueurs savent jouer aux échecs, ce qui permettra d'aller plus vite au début, les contraintes viendront au fur et à mesure.
+
+Une fois que le jeu d'échec sera fini, je vais pouvoir commencer par développer l'IA, je n'ai pas encore d'idée sur comment le structurer ni même quelle stratégie de code utiliser
