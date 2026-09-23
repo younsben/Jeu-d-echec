@@ -87,13 +87,26 @@ Enumérer toutes les règles implicites ce qui me permettra de mieux structurer 
 
 >[!Note]
 >Listage:
-- Les pièces d'une même couleur ne peuvent pas se capturer entre elle
-- Une pièce ne peut pas mettre en échec son propre roi
-- One ne peut pas dépasser les limites physique du plateau
-- Dans la fonction update plato il faudra faire plusieurs vérifications, est-ce que les coups sont bons, est-ce qu'un roi est en échec si oui est-ce que c'est un mat
-- Ajouter des photos d'un plateau, de chaque pièces, pour les pièces faire une méthode dans la classe pièces auquel on fera un super dans chaque sous classe, différencier si la pièce est blanche ou noit
-- Ajouter la possibilité de retourner le plato selon qu'on joue avec les blancs ou les noirs
-- Placer les numérotations sur le plato
+
+>[!CAUTION]
+
+>- Les pièces d'une même couleur ne peuvent pas se capturer entre elle
+
+>- Une pièce ne peut pas mettre en échec son propre roi
+
+>- One ne peut pas dépasser les limites physique du plateau
+
+>- Dans la fonction update plato il faudra faire plusieurs vérifications, est-ce que les coups sont bons, est-ce qu'un roi est en échec si oui est-ce que c'est un mat
+
+>- Ajouter des photos d'un plateau, de chaque pièces, pour les pièces faire une méthode dans la classe pièces auquel on fera un super dans chaque sous classe, différencier si la pièce est blanche ou noir
+
+>- Ajouter la possibilité de retourner le plato selon qu'on joue avec les blancs ou les noirs
+
+>- Placer les numérotations sur le plato
+
+>- Faire des input pour demander ou placer la prochaine pièce (si le coup n'est pas possible ou échec faire un input où on le précise)
+
+(en vert ce sont les misions déjà réalisé, en orange des missions secondaires et en rouge les missions importantes soient non réalisé ou avec un bug)
 
 
 Je vais commencer par créer le plateau d'échec.

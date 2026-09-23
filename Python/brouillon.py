@@ -58,7 +58,7 @@ class Pawn(Pieces):
         vert = old_piece.emplacement[0] # 0 ou 1 ça reste à vérifier
         hor = old_piece.emplacement[1]
 
-
+# faire une fonction eatpawn
 
 class Rook(Pieces):
     def __init__(self, couleur,emplacement,nom,points,inlife = True, already_moved = False):
