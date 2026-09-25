@@ -1,0 +1,38 @@
+class Board:
+    def __init__(self ):
+        tab = np.full((8,8),"Em") #E is for an empty case
+        first_line = np.array(["R","N","B","Q","K","B","N","R"])
+        tab[0] = [ "w" + p for p in first_line]
+        tab[1] = "wP"
+        tab[7] = [ "b" + p for p in first_line]
+        tab[6] = "bP"
+        empt = Pieces([0,0] , "Em")
+        self.board = np.full((8,8), empt, dtype = Pieces)
+        for i in range(8):
+            for j in range(8):
+                self.board[i][j] = Pieces([i,j] , tab[i][j])
+
+
+    def display(self):
+        print("The board")
+        for i in range(8):
+            for j in range(8):
+                print(self.board[i][j].name, end=" ") #to do not come to the line after this print
+            print("\n")
+
+
+
+piece1 = Pieces( [9,3] , "wP" , 1 )
+
+piece2 = Pieces([0,7],"wQ",9)
+#print(piece1.name)
+plato = Board()
+#print(piece1)
+
+#print(f"La pièce peut bouger de manière verticale dans les coins {piece1.vertical_movement(plato.board)}")
+
+#print(f"La pièce peut bouger de manière horizontale dans les coins {piece1.horizontal_movement(plato.board)}")
+
+#print(f"La pièce peut bouger de manière diagonale dans les coins {piece1.diago_movement(plato.board)}")
+
+plato.display()

@@ -87,12 +87,13 @@ Enumérer toutes les règles implicites ce qui me permettra de mieux structurer 
 
 >[!Note]
 >Listage:
-
->[!CAUTION]
-
 >- Les pièces d'une même couleur ne peuvent pas se capturer entre elle
 
 >- Une pièce ne peut pas mettre en échec son propre roi
+
+>[!CAUTION]
+
+>- Faire des input pour demander ou placer la prochaine pièce (si le coup n'est pas possible ou échec faire un input où on le précise)
 
 >- One ne peut pas dépasser les limites physique du plateau
 
@@ -104,7 +105,7 @@ Enumérer toutes les règles implicites ce qui me permettra de mieux structurer 
 
 >- Placer les numérotations sur le plato
 
->- Faire des input pour demander ou placer la prochaine pièce (si le coup n'est pas possible ou échec faire un input où on le précise)
+
 
 (en vert ce sont les misions déjà réalisé, en orange des missions secondaires et en rouge les missions importantes soient non réalisé ou avec un bug)
 
